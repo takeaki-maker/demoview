@@ -6,16 +6,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+          <p>
+            <code>src/App.js</code>を編集したら保存する。
+          </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+          href="http://localhost:8080/api/books"
+          // target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          API呼び出します
         </a>
       </header>
     </div>
